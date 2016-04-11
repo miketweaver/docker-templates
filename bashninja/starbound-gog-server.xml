@@ -5,16 +5,18 @@
   <Description>
     Run a GOG Starbound Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/starbound[/b] This is where the where the Starbound files from GOG need to be placed[br][br]
+    [b]/starbound[/b] This is where the Starbound files from GOG need to be placed.[br]
+    Set the mount point to a folder in one of your shares, and put the Starbound files inside the folder[br][br]
     [span style='color: #E80000;']Important[/span]:[br][br] 
-    You [i]must[/i] do the following steps.[br][br]
-    Download the linux installer script from GOG onto a linux machine.[br][br]
-    run unzip gog_starbound_*.sh[br][br]
-    You'll find it extracted 3 folders: data, meta, and scripts.[br][br]
-    Copy the files from data/noarch/* to the starbound folder that you're mounting in UnRaid.[br][br]
+    You [i]must[/i] do the following steps.[br]
+    1.  Download the linux installer script from GOG onto a linux machine.[br]
+    2.  run [span style='color: #56AD00;font-weight: bold;'][code]unzip gog_starbound_*.sh[/code][/span][br]
+    3.  You'll find it extracted 3 folders: [span style='color: #56AD00;font-weight: bold;'][code]data, meta, and scripts[/code][/span][br]
+    4.  Copy the files from [span style='color: #56AD00;font-weight: bold;'][code]data/noarch/*[/code][/span] to the starbound folder that you're mounting in UnRaid.[br]
     [br][br]
-    Note: you can, technically, use the steam files if you didn't purchase from GOG. I have never tested or tried it though. The files and folders you're looking for are: docs/ game/ support/ gameinfo start.sh
-    Submit any issues here: https://github.com/miketweaver/docker-starbound-gog-server/issues[br][br]
+    [i]Note:[/i] you can, technically, use the steam files if you didn't purchase from GOG. Steam files have not been tested.[br]
+    The files and folders you're looking for are: [span style='font-weight: bold;'][code]docs/ game/ support/ gameinfo start.sh[/code][/span][br]
+    Submit any issues here: https://github.com/miketweaver/docker-starbound-gog-server/issues[br]
   </Description>
   <Overview>
    Docker container to run a GOG Starbound Server. 
