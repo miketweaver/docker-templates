@@ -21,7 +21,7 @@
   <Overview>
    Docker container to run a GOG Starbound Server. 
   </Overview>
-  <Support>https://github.com/miketweaver/docker-starbound-gog-server/issues</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
   <Registry>https://hub.docker.com/r/bashninja/docker-gog-starbound-server/</Registry>
   <GitHub>https://github.com/miketweaver/docker-starbound-gog-server</GitHub>
   <Repository>bashninja/docker-gog-starbound-server</Repository>
