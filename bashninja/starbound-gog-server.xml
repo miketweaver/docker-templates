@@ -15,10 +15,10 @@
     4.  Copy the files from [span style='color: #56AD00;font-weight: bold;'][code]data/noarch/*[/code][/span] to the starbound folder that you're mounting in UnRaid.[br]
     [br][br]
     Installation Video:[br]
-    https://youtu.be/QnDf0vxIvek[br][br]
+    [url]https://youtu.be/QnDf0vxIvek[/url][br][br]
     [i]Note:[/i] you can, technically, use the steam files if you didn't purchase from GOG. Steam files have not been tested.[br]
     The files and folders you're looking for are: [span style='font-weight: bold;'][code]docs/ game/ support/ gameinfo start.sh[/code][/span][br][br]
-    Submit any issues here: https://github.com/miketweaver/docker-starbound-gog-server/issues
+    Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
   </Description>
   <Overview>
    Docker container to run a GOG Starbound Server. 
