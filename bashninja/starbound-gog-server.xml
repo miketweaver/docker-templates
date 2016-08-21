@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>Starbound-GOG-Server</Name>
-  <Date>2016-04-11</Date>
+  <Date>2016-08-21</Date>
   <Description>
     Run a GOG Starbound Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -13,6 +13,7 @@
     2.  run [span style='color: #56AD00;font-weight: bold;'][code]unzip gog_starbound_*.sh[/code][/span][br]
     3.  You'll find it extracted 3 folders: [span style='color: #56AD00;font-weight: bold;'][code]data, meta, and scripts[/code][/span][br]
     4.  Copy the files from [span style='color: #56AD00;font-weight: bold;'][code]data/noarch/*[/code][/span] to the starbound folder that you're mounting in UnRaid.[br]
+    5.  If you're not using IPv6, edit the game\storage\starbound_server.config and replace [span style='color: #56AD00;font-weight: bold;'][code]"gameServerBind" : "::",[/code][/span] with [span style='color: #56AD00;font-weight: bold;'][code]"gameServerBind" : "*",[/code][/span]
     [br][br]
     Installation Video:[br]
     [url]https://youtu.be/QnDf0vxIvek[/url][br][br]
