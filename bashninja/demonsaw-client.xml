@@ -36,6 +36,11 @@
       <ContainerDir>/mnt/share</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/Downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Banner></Banner>
   <Icon>https://cdn.rawgit.com/miketweaver/demonsaw-client/master/logo_1024.png</Icon>
