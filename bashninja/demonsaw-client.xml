@@ -2,12 +2,13 @@
 <Containers>
   <Name>DemonSaw-Client</Name>
   <Date>2016-09-03</Date>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Description>
     Run a DemonSaw Client [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/share[/b] This is where the default share is..[br]
-    [b]/nobody/Downloads[/b] This is where the files from DemonSaw are downloaded by default.[br]
-    Launch the Web Interface at port 8080 to start DemonSaw.[br][br]
+    [b]/nobody/share[/b] This is where the default share is..[br]
+    [b]/nobody/Downloads[/b] This is where the files from DemonSaw are downloaded by default.[br][br]
+    Launch the Web Interface at port 8080 to start DemonSaw.
     [br][br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
   </Description>
@@ -33,12 +34,12 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/mnt/share</ContainerDir>
+      <ContainerDir>/nobody/share</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/nobody/Downloads</ContainerDir>
+      <ContainerDir>/nobody/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
