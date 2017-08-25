@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>DemonSaw-Client</Name>
-  <Date>2016-09-03</Date>
+  <Date>2017-09-25</Date>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Description>
     Run a DemonSaw Client [br][br]
@@ -44,7 +44,7 @@
     </Volume>
   </Data>
   <Banner></Banner>
-  <Icon>https://cdn.rawgit.com/miketweaver/demonsaw-client/master/logo_1024.png</Icon>
+  <Icon>https://cdn.rawgit.com/miketweaver/demonsaw-client/master/Demonsaw-Logo-with-text.png</Icon>
   <Beta>True</Beta>
   <Category>Other:</Category>
   <ExtraParams></ExtraParams>
