@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>Pritunl VPN Server</Name>
+  <Name>Pritunl</Name>
   <Date>2017-10-05</Date>
   <Changes>
   [center][font size=4]Pritunl Change Log[/font][/center]
   [b]10.05.2017:[/b] Initial Release. 
   </Changes>
-  <WebUI>https://[IP]:[PORT:9007]</WebUI>
+  <WebUI>https://[IP]:[PORT:9700]</WebUI>
   <Project>https://pritunl.com/</Project>
   <Description>
     Run a Pritunl VPN Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the default configs and logs are.[br][br]
-    Launch the Web Interface at port `9007` to manage Pritunl. Port `1194` udp/tcp is default for the VPN.[br]
+    Launch the Web Interface at port `9700` to manage Pritunl.[br]
+    Port `1194` udp/tcp is default for the VPN.[br]
     Add a "server" and set the bind port to `0.0.0.0`, until UnRAID supports ipv6.[br]
     [br][br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
