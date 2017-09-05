@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Pritunl VPN Server</Name>
+  <Date>2017-10-05</Date>
+  <Changes>
+  [center][font size=4]Pritunl Change Log[/font][/center]
+  [b]10.05.2017:[/b] Initial Release. 
+  </Changes>
+  <WebUI>https://[IP]:[PORT:9007]</WebUI>
+  <Project>https://pritunl.com/</Project>
+  <Description>
+    Run a Pritunl VPN Server [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the default share is.[br]
+    [b]/config/log[/b] This is where the logs are stored.[br][br]
+    Launch the Web Interface at port `9007` to manage Pritunl. Port `1194` udp/tcp is default for the VPN.
+    Add a "server" and set the bind port to `0.0.0.0`, until UnRAID supports ipv6.
+    [br][br]
+    Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
+  </Description>
+  <Overview>
+   Docker container to run a Pritunl VPN Server. 
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
+  <Registry>https://hub.docker.com/r/bashninja/docker-pritunl/</Registry>
+  <GitHub>https://github.com/bashNinja-dockers/docker-pritunl</GitHub>
+  <Repository>bashninja/docker-pritunl</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9007</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9699</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>1194</HostPort>
+        <ContainerPort>1194</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>1194</HostPort>
+        <ContainerPort>1194</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/e1658877/logo.png</Icon>
+  <Beta>True</Beta>
+  <Category>Network:Other</Category>
+  <ExtraParams></ExtraParams>
+  <BaseImage>lsiobase/xenial</BaseImage>
+</Containers>
