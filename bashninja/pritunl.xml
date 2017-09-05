@@ -11,10 +11,9 @@
   <Description>
     Run a Pritunl VPN Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where the default share is.[br]
-    [b]/config/log[/b] This is where the logs are stored.[br][br]
-    Launch the Web Interface at port `9007` to manage Pritunl. Port `1194` udp/tcp is default for the VPN.
-    Add a "server" and set the bind port to `0.0.0.0`, until UnRAID supports ipv6.
+    [b]/config[/b] This is where the default configs and logs are.[br][br]
+    Launch the Web Interface at port `9007` to manage Pritunl. Port `1194` udp/tcp is default for the VPN.[br]
+    Add a "server" and set the bind port to `0.0.0.0`, until UnRAID supports ipv6.[br]
     [br][br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
   </Description>
