@@ -70,7 +70,9 @@
     </Volume>
   </Data>
   <Banner></Banner>
-  <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/e1658877/logo.png</Icon>
+
+  https://cdn.rawgit.com/miketweaver/demonsaw-client/master/Demonsaw-Logo-with-text.png
+  <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/0cf3b425/logo.png</Icon>
   <Beta>True</Beta>
   <Category>Network:Other</Category>
   <ExtraParams></ExtraParams>
