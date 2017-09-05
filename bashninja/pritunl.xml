@@ -8,7 +8,7 @@
   </Changes>
   <WebUI>https://[IP]:[PORT:9700]</WebUI>
   <Project>https://pritunl.com/</Project>
-  <Description>
+  <Overview>
     Run a Pritunl VPN Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the default configs and logs are.[br][br]
@@ -17,10 +17,10 @@
     When you add a "server" and [b]set the bind port to 0.0.0.0`[/b], until UnRAID supports ipv6.[br]
     [br][br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
-  </Description>
-  <Overview>
-   Docker container to run a Pritunl VPN Server. 
   </Overview>
+  <Description>
+   Docker container to run a Pritunl VPN Server. 
+  </Description>
   <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
   <Registry>https://hub.docker.com/r/bashninja/docker-pritunl/</Registry>
   <GitHub>https://github.com/bashNinja-dockers/docker-pritunl</GitHub>
