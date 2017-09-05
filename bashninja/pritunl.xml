@@ -13,8 +13,8 @@
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the default configs and logs are.[br][br]
     Launch the Web Interface at port `9700` to manage Pritunl.[br]
-    Port `1194` udp/tcp is default for the VPN.[br]
-    Add a "server" and set the bind port to `0.0.0.0`, until UnRAID supports ipv6.[br]
+    Port `1194` udp/tcp is default for the VPN.[br][br]
+    When you add a "server" and [b]set the bind port to 0.0.0.0`[/b], until UnRAID supports ipv6.[br]
     [br][br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url]
   </Description>
@@ -69,12 +69,17 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <Config Name="http" Target="80" Default="9699" Mode="tcp" Description="Container Port: 80. Only used for LetsEncrypt." Type="Port" Display="advanced-hide" Required="false" Mask="false"></Config>
+  <Config Name="https" Target="443" Default="9700" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="VPN/tcp" Target="1194" Default="1194" Mode="tcp" Description="Container Port: 1194/tcp" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="VPN/udp" Target="1194" Default="1194" Mode="udp" Description="Container Port: 1194/udp" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="UID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="GID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/pritunl" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Banner></Banner>
-
-  https://cdn.rawgit.com/miketweaver/demonsaw-client/master/Demonsaw-Logo-with-text.png
   <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/0cf3b425/logo.png</Icon>
   <Beta>True</Beta>
-  <Category>Network:Other</Category>
+  <Category>Network:Other Status:Beta</Category>
   <ExtraParams></ExtraParams>
   <BaseImage>lsiobase/xenial</BaseImage>
 </Containers>
