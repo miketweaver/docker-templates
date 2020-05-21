@@ -25,16 +25,6 @@
   <GitHub>https://github.com/shawly/docker-ps3netsrv</GitHub>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-  </Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
