@@ -39,7 +39,7 @@
   <Config Name="PUID" Target="USER_ID" Default="99" Mode="" Description="UID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
   <Config Name="PGID" Target="GROUP_ID" Default="100" Mode="" Description="GID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
   <Banner></Banner>
-  <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/0cf3b425/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/miketweaver/docker-templates/master/bashninja/ps3netsrvicon.png</Icon>
   <Beta>True</Beta>
   <Category>Network:Other Status:Beta</Category>
   <ExtraParams></ExtraParams>
