@@ -27,13 +27,6 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>38008</HostPort>
-        <ContainerPort>38008</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
   </Networking>
   <Data>
     <Volume>
