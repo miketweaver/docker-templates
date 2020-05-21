@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>PS3NetSrv</Name>
+  <Date>2020-05-21</Date>
+  <Changes>
+  [center][font size=4]PS3NetSrv Change Log[/font][/center]
+  [b]31.05.2020:[/b] Initial Release. 
+  </Changes>
+  <Project>https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/ps3netsrv</Project>
+  <Overview>
+    Run a PS3NetSrv Server [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/games[/b] This is where your games should be stored.[br][br]
+    Port `38008` udp/tcp is default for PS3NetSrv.[br][br]
+    When you add a "server" and [b]set the bind port to 0.0.0.0`[/b], until UnRAID supports ipv6.[br]
+    [br][br]
+    Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url][br][br]
+    The docker container is made by [span style='color: #E80000;']shawly[/span]/ps3netsrv
+  </Overview>
+  <Description>
+   PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server.
+  </Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
+  <Registry>https://hub.docker.com/r/shawly/ps3netsrv</Registry>
+  <GitHub>https://github.com/shawly/docker-ps3netsrv</GitHub>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>38008</HostPort>
+        <ContainerPort>38008</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/games</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Config Name="PORT" Target="38008" Default="38008" Mode="tcp" Description="Container Port: 38008. " Type="Port" Display="aalways" Required="true" Mask="false"></Config>
+  <Config Name="PUID" Target="USER_ID" Default="99" Mode="" Description="UID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
+  <Config Name="PGID" Target="GROUP_ID" Default="100" Mode="" Description="GID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
+  <Banner></Banner>
+  <Icon>https://cdn.rawgit.com/bashNinja-dockers/docker-pritunl/0cf3b425/logo.png</Icon>
+  <Beta>True</Beta>
+  <Category>Network:Other Status:Beta</Category>
+  <ExtraParams></ExtraParams>
+  <BaseImage>alpine:3.1.1</BaseImage>
+</Containers>
