@@ -8,19 +8,18 @@
   </Changes>
   <Project>https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/ps3netsrv</Project>
   <Overview>
-    Run a PS3NetSrv Server [br][br]
+   PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/games[/b] This is where your games should be stored.[br][br]
-    Port `38008` udp/tcp is default for PS3NetSrv.[br][br]
+    [b]/games[/b] This is where your games should be stored.[br]
+    Port [b]38008[/b] udp/tcp is default for PS3NetSrv.[br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url][br]
     The docker container is made by [span style='color: #E80000;']shawly[/span]/ps3netsrv
   </Overview>
   <Description>
    PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server. [br][br]
-    Run a PS3NetSrv Server [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/games[/b] This is where your games should be stored.[br][br]
-    Port `38008` udp/tcp is default for PS3NetSrv.[br][br]
+    [b]/games[/b] This is where your games should be stored.[br]
+    Port [b]38008[/b] udp/tcp is default for PS3NetSrv.[br]
     Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url][br]
     The docker container is made by [span style='color: #E80000;']shawly[/span]/ps3netsrv
   </Description>
