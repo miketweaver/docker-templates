@@ -18,7 +18,15 @@
     The docker container is made by [span style='color: #E80000;']shawly[/span]/ps3netsrv
   </Overview>
   <Description>
-   PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server.
+   PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server. [br][br]
+    Run a PS3NetSrv Server [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/games[/b] This is where your games should be stored.[br][br]
+    Port `38008` udp/tcp is default for PS3NetSrv.[br][br]
+    When you add a "server" and [b]set the bind port to 0.0.0.0`[/b], until UnRAID supports ipv6.[br]
+    [br][br]
+    Submit any UnRaid issues here: [url]http://lime-technology.com/forum/index.php?topic=48370.0[/url][br][br]
+    The docker container is made by [span style='color: #E80000;']shawly[/span]/ps3netsrv
   </Description>
   <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
   <Registry>https://hub.docker.com/r/shawly/ps3netsrv</Registry>
