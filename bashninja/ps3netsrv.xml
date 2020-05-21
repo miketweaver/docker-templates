@@ -23,6 +23,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=48370.0</Support>
   <Registry>https://hub.docker.com/r/shawly/ps3netsrv</Registry>
   <GitHub>https://github.com/shawly/docker-ps3netsrv</GitHub>
+  <Repository>shawly/ps3netsrv</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
