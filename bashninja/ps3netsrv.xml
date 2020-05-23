@@ -9,6 +9,7 @@
   <Project>https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/ps3netsrv</Project>
   <Overview>
    PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server. [br][br]
+   [span style='color: #E80000;']THIS IS IN BETA AND HAS REPORTED ISSUES.[/span][br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/games[/b] This is where your games should be stored.[br]
     Port [b]38008[/b]/tcp is default for PS3NetSrv.[br]
@@ -17,6 +18,7 @@
   </Overview>
   <Description>
    PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your unRAID server. [br][br]
+    [span style='color: #E80000;']THIS IS IN BETA AND HAS REPORTED ISSUES.[/span][br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/games[/b] This is where your games should be stored.[br]
     Port [b]38008[/b]/tcp is default for PS3NetSrv.[br]
