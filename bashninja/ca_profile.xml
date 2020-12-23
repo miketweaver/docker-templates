@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/avatar.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/miketweaver/docker-templates/master/bashninja/bashninja.png</Icon>
   <Profile>
     Creating Docker containers for myself and sharing with the world. I base most of my images on the LinuxServer.io system.
   </Profile>
+  <Forum>https://forums.unraid.net/topic/46664-support-bashninja-dockers-starbound-pritunl-demonsaw-etc/</Forum>
 </Maintainer>
