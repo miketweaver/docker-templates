@@ -6,7 +6,7 @@
   [center][font size=4]Pritunl Change Log[/font][/center]
   [b]10.05.2017:[/b] Initial Release. 
   </Changes>
-  <WebUI>https://[IP]:[PORT:9700]</WebUI>
+  <WebUI>https://[IP]:[PORT:443]</WebUI>
   <Project>https://pritunl.com/</Project>
   <Overview>
     Run a Pritunl VPN Server [br][br]
